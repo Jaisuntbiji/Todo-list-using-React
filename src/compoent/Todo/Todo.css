@@ -1,0 +1,41 @@
+.body{
+    margin: 0;
+    background-color: rgb(128, 234, 253);
+    font-family: sans-serif;
+}
+.Todo-section{
+    margin: auto;
+    width: 350px;
+    margin-top: 30px;
+    text-align: center;
+}
+.input-Secton{
+    background-color:rgb(213, 238, 242);
+    padding: 15px;
+    border-radius: 5px;
+}
+.input-Secton input{
+    border-radius: 5px;
+    border:1px solid silver;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+ul {
+    text-align: left;
+    padding: 0%;
+}
+ul li{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+}
